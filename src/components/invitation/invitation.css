@@ -1,0 +1,94 @@
+/* Estilos generales */
+.div-invitation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px;
+}
+
+.invitation-img {
+    border-radius: 50%;
+    width: 400px;
+    margin-left: 80px; 
+}
+
+.div-invitation .text-content {
+    flex: 1;
+}
+
+.div-invitation h2 {
+    text-align: left;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.div-invitation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.div-invitation li {
+    background: url('../../img/car.png') no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.invitation-didi {
+    flex-direction: row-reverse; 
+    text-align: center;
+}
+
+.invitation-didi .invitation-img {
+    width: 400px; 
+    margin-left: 0; 
+    margin-right: 100px;
+}
+
+
+@media (max-width: 377px) {
+    .div-invitation {
+        flex-direction: column; 
+        align-items: center;
+        margin: 10px; 
+        padding: 10px; 
+    }
+
+    .invitation-img {
+        width: 250px; 
+        margin-left: 20px;
+    }
+
+    .div-invitation .text-content {
+        text-align: center; 
+    }
+
+    .div-invitation h2 {
+        font-size: 18px; 
+        padding-bottom: 10px; 
+    }
+
+    .div-invitation ul {
+        padding: 0; 
+        margin: 0; 
+    }
+    .invitation-didi .invitation-img {
+        width: 400px; 
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ 
+    .div-invitation li {
+        background: url('../../img/car.png') no-repeat left center; 
+        background-size: 16px 16px; 
+        padding-left: 25px; 
+        font-size: 12px; 
+        line-height: 20px; 
+        margin-bottom: 8px; 
+    }
+}

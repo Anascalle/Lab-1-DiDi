@@ -1,0 +1,23 @@
+.grid-button-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a múltiples líneas si es necesario */
+    align-items: center; /* Alinea las tarjetas al principio del contenedor */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    gap: 50px; /* Espacio entre las tarjetas */
+    padding: 20px; 
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+
+.card-with-button {
+    max-width: 400px; 
+    width:450px; 
+}
+
+@media (max-width: 377px) {
+    .grid-button-container {
+        margin-left: -55px;
+         }
+       
+}

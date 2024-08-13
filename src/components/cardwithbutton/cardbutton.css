@@ -1,0 +1,11 @@
+.card-buttons{
+    margin-top: 40px;
+}
+
+@media (max-width: 377px) {
+    
+    .card-with-button{
+        margin-left: 70px;
+   
+    }
+}
